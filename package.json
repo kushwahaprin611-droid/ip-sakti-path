@@ -1,0 +1,22 @@
+{
+  "name": "ip-sakti-path",
+  "version": "1.0.0",
+  "description": "Interactive AI Educational System: Intellectual Property and Regulatory Sovereignty in Ayurveda",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "bundle": "node scripts/make_bundle.js",
+    "audit": "node --experimental-vm-modules audit.js"
+  },
+  "keywords": [
+    "ayurveda",
+    "intellectual-property",
+    "patent-law",
+    "openai",
+    "web-search",
+    "tkdl",
+    "biodiversity-act"
+  ],
+  "author": "Google DeepMind Antigravity Team",
+  "license": "MIT"
+}
