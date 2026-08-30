@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IP Sakti Path - Team Access & Launch Hub</title>
+  <style>
+    body {
+      background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
+      color: #f8fafc;
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.9);
+      border: 2px solid #f59e0b;
+      box-shadow: 0 0 35px rgba(245, 158, 11, 0.3);
+      border-radius: 16px;
+      max-width: 620px;
+      width: 100%;
+      padding: 28px;
+      text-align: center;
+    }
+    h1 {
+      color: #fbbf24;
+      margin-top: 0;
+      font-size: 1.8rem;
+    }
+    .subtitle {
+      color: #34d399;
+      font-weight: 700;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+    .links-grid {
+      display: grid;
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .link-btn {
+      display: block;
+      padding: 14px 18px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 1rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .link-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 20px rgba(245, 158, 11, 0.5);
+    }
+    .btn-main {
+      background: linear-gradient(135deg, #f59e0b, #ea580c);
+      color: #fff;
+    }
+    .btn-wifi {
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: #fff;
+    }
+    .btn-netlify {
+      background: linear-gradient(135deg, #06b6d4, #0284c7);
+      color: #fff;
+    }
+    .btn-file {
+      background: rgba(30, 41, 59, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #cbd5e1;
+    }
+    .footer {
+      font-size: 0.8rem;
+      color: #94a3b8;
+      margin-top: 20px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div style="font-size: 3rem;">🪷</div>
+    <h1>IP SAKTI PATH</h1>
+    <div class="subtitle">ज्ञान & शक्ति: Ayurvedic IP & Sovereignty Educational Simulation</div>
+
+    <div class="links-grid">
+      <a href="http://localhost:8080/" class="link-btn btn-main" target="_blank">
+        🎮 1. Launch Game on Localhost (http://localhost:8080)
+      </a>
+      
+      <a href="http://10.136.75.157:8080/" class="link-btn btn-wifi" target="_blank">
+        📱 2. Open via Team Wi-Fi / Hotspot (http://10.136.75.157:8080)
+      </a>
+
+      <a href="https://app.netlify.com/drop" class="link-btn btn-netlify" target="_blank">
+        🚀 3. Deploy Instantly on Netlify Drop (Drag & Drop)
+      </a>
+
+      <a href="./index.html" class="link-btn btn-file">
+        📁 4. Open Direct Local index.html File
+      </a>
+    </div>
+
+    <div class="footer">
+      💡 <b>Team Tip:</b> Keep <code>serve.ps1</code> or <code>start_game.bat</code> running on the host laptop so teammates on the same Wi-Fi can play at <code>http://10.136.75.157:8080</code>!
+    </div>
+  </div>
+</body>
+</html>
